@@ -12,7 +12,7 @@ require_once __DIR__ . '/includes/init.php';
 require_login();
 
 // 获取当前用户信息
-$user = get_current_user();
+$user = get_logged_in_user();
 
 $page_title = '个人中心';
 require_once TEMPLATES_PATH . '/header.php';

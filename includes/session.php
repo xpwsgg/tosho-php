@@ -52,7 +52,7 @@ function get_current_user_id(): ?int
 /**
  * 获取当前登录用户信息
  */
-function get_current_user(): ?array
+function get_logged_in_user(): ?array
 {
     $user_id = get_current_user_id();
     if ($user_id === null) {
