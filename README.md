@@ -79,10 +79,23 @@ tosho-php/
 
 
 
+## 系统截图
+
+### 1. 登录页面
+
+![登录页面](images/index.php.png)
+
+### 2. 注册页面
+
+![注册页面](images/register.php.png)
+
+### 3. 个人中心
+
+![个人中心](images/profile.php.png)
+
 ## 运行方式
 
 ```bash
-cd /Users/xiao/Documents/code/tosho-php
 php -S localhost:8000
 ```
 
